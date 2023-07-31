@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://kit.fontawesome.com/234de0dee3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My portfolio</title>
+</head>
+<body class="bg-black text-white">
+<!--Navbar-->
+<section class="border-2 border-white">
+    <nav class="flex justify-between px-[150px] py-[30px] text-[24px] ">
+        <h1 class="text-[28px] font-bold">
+            Nafkem
+        </h1>
+        <ul class="flex gap-6">
+            <a href="#" class="text-white hover:underline">Home</a>
+            <a href="#" class="text-white hover:underline">About</a>
+            <a href="#" class="text-white hover:underline">Skills</a>
+            <a href="#" class="text-white hover:underline">Project</a>
+            <a href="#" class="text-white hover:underline">Testimonial</a>
+            <a href="#" class="text-white hover:underline">Contact</a>
+        </ul>
+    </nav>
+</section>
+
+<!--Hero section-->
+<section class="px-[250px] mt-[100px] flex justify-between items-center gap-[140px]">
+    <div class="flex flex-col gap-8">
+       <h1 class="text-[28px] font-bold">
+        Hello👋, I'm a Backend and smart Contract developer
+       </h1> 
+       <p class="text-[24px] text-justify">
+        I am Nofisat A. Ayanlola. A Backend and smart Contract developer, proficient in designing, implementing, 
+        and securing smart contracts for cutting-edge blockchain applications.
+       </p>
+       <button class="bg-yellow-600 p-4 text-[24px] text-black font-bold w-[200px] hover:bg-white">
+        Download CV
+       </button>
+    </div>
+    <img class="rounded-full h-[450px] w-[450px]"  src="./img/pic16.jpg" alt="image" >
+</section>
+
+<!--About Me section-->
+<section class="px-[150px] mt-[150px] flex flex-col gap-6 justify-center items-center">
+    <h1 class="text-[30px] text-yellow-600 font-bold">
+        About Me
+       </h1> 
+    <div class="flex flex-row-reverse gap-[50px] justify-between items-center">
+       <p class="text-[24px]">
+        As a passionate Nigerian Smart Contract and Backend Developer, my focus is on building solutions
+        that truly empathize with users' needs. I try to conduct thorough research to create effective and 
+        user-friendly outcomes. My proficiency lies in designing, implementing, and securing smart contracts 
+        for cutting-edge blockchain applications.
+        With responsibilities ranging from backend development to blockchain integration and system optimization,
+        this drives me to strive in attaining continous technical skillset and commitment to problem-solving. My unwavering passion 
+        for blockchain technology fuels my desire to contribute meaningfully and humbly shape the future of blockchain 
+        applications.
+       </p>
+       <img class="h-[400px] w-[450px]" src="./img/18.jpg" alt="image" >
+    </div>
+</section>
+
+<!--Contact section-->
+<section class="px-[250px] mt-[200px]">
+    <div class="flex flex-col gap-8">
+       <h1 class="text-[28px] text-center text-yellow-600 font-bold">
+        Contact Me
+       </h1> 
+       <form class="px-[250px]">
+        <div class="mb-4">
+            <label for="name" class="block font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full border bg-gray-400 rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+        </div>
+
+        <div class="mb-4">
+            <label for="email" class="block font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full border bg-gray-400 rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required>
+        </div>
+
+        <div class="mb-6">
+            <label for="message" class="block font-bold mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" class="w-full border bg-gray-400 rounded-lg px-3 py-2 focus:outline-none focus:border-blue-500" required></textarea>
+        </div>
+
+        <div class="flex justify-start">
+            <button type="submit" class="bg-yellow-600 text-[24px] hover:bg-white w-[150px] text-black font-bold p-4 rounded focus:outline-none focus:shadow-outline">
+                Submit
+            </button>
+        </div>
+    </form>
+    </div>
+</section>
+
+<!--Skills section-->
+<section class="px-[250px] mt-[200px] ">
+       <h1 class="text-[30px] text-center text-yellow-600 font-bold">
+        Skills
+       </h1> 
+       <ul class="flex justify-center items-center gap-6 text-[24px] font-bold p-6">
+           <li class="flex flex-col items-center">
+                <p>HTML</p>
+                <p class="text-[60px] text-yellow-600"><i class="fa-brands fa-html5"></i></p>
+            </li>
+           <li class="flex flex-col items-center">
+            <p>CSS</p>
+            <p class="text-[60px] text-yellow-600"><i class="fa-brands fa-css3-alt"></i></p>
+            </li>
+           <li class="flex flex-col items-center">
+            <p>Git & Github</p>
+            <p class="text-[60px] text-yellow-600"><i class="fa-brands fa-github"></i></p>
+            </li>
+           <li class="flex flex-col items-center">
+            <p>Javascript</p>
+            <p class="text-[60px] text-yellow-600"><i class="fa-brands fa-square-js"></i></p>
+            </li>
+           <li class="flex flex-col items-center">
+            <p>Solidity</p>
+            <p class="text-[60px] text-yellow-600"><i class="fa-solid fa-hexagon-vertical-nft-slanted"></i></p>
+           </li>
+        </ul>
+     </section>
+
+<!--Project section-->
+<section class="px-[250px] mt-[200px] ">
+    <div class="flex flex-col gap-8">
+       <h1 class="text-[30px] text-yellow-600 text-center font-bold">
+        Project
+       </h1> 
+    </div>
+    <div class="flex gap-10 justify-center items-center p-6">
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic10.jpg" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic8.jpg" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic1.jpg" alt="image" >
+</div>
+</section>
+
+<!--Testimonial section-->
+<section class="px-[250px] mt-[200px]">
+     <h1 class="text-[30px] text-yellow-600 text-center font-bold">
+        Testimonials
+     </h1> 
+     <div>
+        <p class="text-[24px] text-center p-6">
+        She is hardworking, i love her energy, she has good form of resilience. <span class="text-[30px] text-yellow-600 font-bold">Mr P.K</span>
+
+        </p>
+     </div>
+</section>
+<section class="text-center p-[20px]">
+    <a href="https://github.com/nafkem" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/nofisat-ayanlola/" class="text-[80px] text-yellow-600 hover:text-white">
+    <i class="fa-brands fa-linkedin"></i></p>
+    <a href="https://twitter.com/Nafkem1" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-twitter"></i></p>
+    <a href="https://web.facebook.com/nofisat.ayanlola/" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-facebook"></i></p>
+    <a href="wame" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-whatsapp"></i></p>
+</section>
+
+<footer class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto text-center">
+      <p class="text-sm">&copy; 2023 nafkem. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
