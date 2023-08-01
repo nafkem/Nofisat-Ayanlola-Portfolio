@@ -11,24 +11,24 @@
 </head>
 <body class="bg-black text-white">
 <!--Navbar-->
-<section class="border-2 border-white">
-    <nav class="flex justify-between px-[150px] py-[30px] text-[24px] ">
+<section class="border-2 border-white text-black">
+    <nav class="flex justify-between  bg-yellow-600 px-[150px] py-[20px] text-[24px] fixed top-0 right-0 left-0 " >
         <h1 class="text-[28px] font-bold">
             Nafkem
         </h1>
         <ul class="flex gap-6">
-            <a href="#" class="text-white hover:underline">Home</a>
-            <a href="#" class="text-white hover:underline">About</a>
-            <a href="#" class="text-white hover:underline">Skills</a>
-            <a href="#" class="text-white hover:underline">Project</a>
-            <a href="#" class="text-white hover:underline">Testimonial</a>
-            <a href="#" class="text-white hover:underline">Contact</a>
+            <a href="#home" class="text-black hover:underline">Home</a>
+            <a href="#about" class="text-black hover:underline">About</a>
+            <a href="#skills" class="text-black hover:underline">Skills</a>
+            <a href="#project" class="text-black hover:underline">Project</a>
+            <a href="#testimonials" class="text-black hover:underline">Testimonials</a>
+            <a href="#contact" class="text-black hover:underline">Contact</a>
         </ul>
     </nav>
 </section>
 
 <!--Hero section-->
-<section class="px-[250px] mt-[100px] flex justify-between items-center gap-[140px]">
+<section class="px-[250px] mt-[100px] flex justify-between items-center gap-[140px]" id="home">
     <div class="flex flex-col gap-8">
        <h1 class="text-[28px] font-bold">
         Hello👋, I'm a Backend and smart Contract developer
@@ -45,7 +45,7 @@
 </section>
 
 <!--About Me section-->
-<section class="px-[150px] mt-[150px] flex flex-col gap-6 justify-center items-center">
+<section class="px-[150px] mt-[150px] flex flex-col gap-6 justify-center items-center" id="about">
     <h1 class="text-[30px] text-yellow-600 font-bold">
         About Me
        </h1> 
@@ -65,7 +65,7 @@
 </section>
 
 <!--Contact section-->
-<section class="px-[250px] mt-[200px]">
+<section class="px-[250px] mt-[200px]" id="contact">
     <div class="flex flex-col gap-8">
        <h1 class="text-[28px] text-center text-yellow-600 font-bold">
         Contact Me
@@ -96,7 +96,7 @@
 </section>
 
 <!--Skills section-->
-<section class="px-[250px] mt-[200px] ">
+<section class="px-[250px] mt-[200px] " id="skills">
        <h1 class="text-[30px] text-center text-yellow-600 font-bold">
         Skills
        </h1> 
@@ -125,21 +125,35 @@
      </section>
 
 <!--Project section-->
-<section class="px-[250px] mt-[200px] ">
+<section class="px-[250px] mt-[200px] " id="project">
     <div class="flex flex-col gap-8">
        <h1 class="text-[30px] text-yellow-600 text-center font-bold">
-        Project
+        Project-Smart Contract-links
        </h1> 
     </div>
-    <div class="flex gap-10 justify-center items-center p-6">
-    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic10.jpg" alt="image" >
-    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic8.jpg" alt="image" >
-    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/pic1.jpg" alt="image" >
+    <div class="flex flex-wrap gap-10 justify-center items-center p-6">
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h.PNG" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h1.PNG" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h2.PNG" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h3.PNG" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h5.PNG" alt="image" >
+    <img class="rounded-lg  h-[250px] w-[450px] align-item:right" src="./img/h6.PNG" alt="image" >
+</div>
+    </div>
+
+<div class="flex gap-10 justify-center items-center p-6">
+    
+    <a href="https://naturedefenders.vercel.app/" target="_blank" class="text-[20px] text-yellow-600 hover:text-white">Click to see Crowdfunding Project</a>
+
+    <a href="https://ishara.ke/tech-for-good-effecting-positive-change-in-the-masai-mara-and-beyond/" class="text-[20px] text-yellow-600 hover:text-white">Click to see My Kenya Experience</a>
+
+    <a href="https://fragrant-dust-9630.on.fleek.co/" class="text-[20px] text-yellow-600 hover:text-white">Click to see NFT Contract</a>
+
 </div>
 </section>
 
 <!--Testimonial section-->
-<section class="px-[250px] mt-[200px]">
+<section class="px-[250px] mt-[200px]" id="testimonials">
      <h1 class="text-[30px] text-yellow-600 text-center font-bold">
         Testimonials
      </h1> 
@@ -149,14 +163,17 @@
 
         </p>
      </div>
+
 </section>
-<section class="text-center p-[20px]">
-    <a href="https://github.com/nafkem" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/nofisat-ayanlola/" class="text-[80px] text-yellow-600 hover:text-white">
-    <i class="fa-brands fa-linkedin"></i></p>
-    <a href="https://twitter.com/Nafkem1" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-twitter"></i></p>
-    <a href="https://web.facebook.com/nofisat.ayanlola/" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-facebook"></i></p>
-    <a href="wame" class="text-[80px] text-yellow-600 hover:text-white"><i class="fa-brands fa-whatsapp"></i></p>
+
+<section class="text-center p-[20px] flex gap-4 flex-wrap justify-center items-center">
+    <p><a href="https://github.com/nafkem" class="text-[40px] text-yellow-600 hover:text-white"><i class="fa-brands fa-github"></i></a></p>
+    <p><a href="https://www.linkedin.com/in/nofisat-ayanlola/" class="text-[40px] text-yellow-600 hover:text-white">
+        <i class="fa-brands fa-linkedin"></i></a></p>
+    <p><a href="https://twitter.com/Nafkem1" class="text-[40px] text-yellow-600 hover:text-white"><i class="fa-brands fa-twitter"></i></a></p>
+    <p><a href="https://web.facebook.com/nofisat.ayanlola/" class="text-[40px] text-yellow-600 hover:text-white"><i class="fa-brands fa-facebook"></i></a></p>
+    <p><a href="wame" class="text-[40px] text-yellow-600 hover:text-white"><i class="fa-brands fa-whatsapp"></i></a></p>    
+    
 </section>
 
 <footer class="bg-gray-800 text-white p-4">
